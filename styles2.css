@@ -1,0 +1,74 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    background-image: url('https://www.gqmiddleeast.com/2021/06/Premier-League-kits-GQME.jpg');
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+    nav a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin: 0 5px;
+    }
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: honeydew;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+    .product img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .product h3 {
+        font-size: small;
+    }
+
+    .product p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+.cart {
+    background-color: azure;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+}
+
+    .cart p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+footer {
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
